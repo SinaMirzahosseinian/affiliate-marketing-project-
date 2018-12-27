@@ -37,3 +37,10 @@ p {
   padding: 0;
   margin-bottom: 2px;
 }
+
+@media (max-width: 500px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
